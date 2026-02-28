@@ -4,9 +4,12 @@
   "package": "pl.olafcio.unrestricted_enchants.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "DamageEnchantmentMixin",
     "EnchantCommandMixin",
     "ItemStackMixin",
-    "FrostWalkerEnchantmentMixin"
+    "FrostWalkerEnchantmentMixin",
+    "LivingEntityMixin",
+    "PlayerEntityMixin"
   ],
   "client": [
   ],
