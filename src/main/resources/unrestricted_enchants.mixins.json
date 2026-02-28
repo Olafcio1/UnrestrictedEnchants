@@ -4,6 +4,7 @@
   "package": "pl.olafcio.unrestricted_enchants.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "EnchantCommandMixin"
   ],
   "client": [
   ],
