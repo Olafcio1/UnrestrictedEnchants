@@ -39,12 +39,13 @@ public abstract class LivingEntityMixin {
             cancellable = true
     )
     @Feature("Allow negative damage")
+    @Feature("Allow negative protection")
     protected void applyEnchantmentsToDamage(DamageSource source, float amount, CallbackInfoReturnable<Float> cir) {
         if (amount == 0.0F) {
             cir.setReturnValue(0.0F);
         } else {
             int i = EnchantmentHelper.getProtectionAmount(this.getArmorItems(), source);
-            if (i <= 0) {
+            if (i != 0) {
                 amount = DamageUtils.method_12937(amount, i);
             }
 
