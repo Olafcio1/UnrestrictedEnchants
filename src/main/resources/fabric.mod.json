@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "unrestricted_enchants",
+  "version": "${version}",
+  "name": "Unrestricted Enchants",
+  "description": "Removes enchantment level restrictions.",
+  "authors": [
+    "Olafcio"
+  ],
+  "contact": {
+    "homepage": "https://olafcio.pl/",
+    "sources": "https://github.com/Olafcio1/UnrestrictedEnchants"
+  },
+  "license": "Apache License",
+  "icon": "assets/unrestricted_enchants/icon.png",
+  "environment": "*",
+  "entrypoints": {
+  },
+  "mixins": [
+    "unrestricted_enchants.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
