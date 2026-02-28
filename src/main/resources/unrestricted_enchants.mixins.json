@@ -7,8 +7,10 @@
     "DamageEnchantmentMixin",
     "DamageUtilsMixin",
     "EnchantCommandMixin",
-    "ItemStackMixin",
+    "EnchantHelperMixin",
     "FrostWalkerEnchantmentMixin",
+    "HostileEntityMixin",
+    "ItemStackMixin",
     "LivingEntityMixin",
     "PlayerEntityMixin"
   ],
