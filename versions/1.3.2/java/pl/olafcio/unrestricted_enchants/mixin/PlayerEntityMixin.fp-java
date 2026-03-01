@@ -1,0 +1,14 @@
+{
+    floatValue = 0.0F
+    expandZeroConditions = Constant.Condition.GREATER_THAN_ZERO
+}
+
+{
+    }, ordinal = 1
+    }, ordinal = 2
+}
+
+{
+    float attack__damageGT0(float constant)
+    int attack__damageGT0(int constant)
+}

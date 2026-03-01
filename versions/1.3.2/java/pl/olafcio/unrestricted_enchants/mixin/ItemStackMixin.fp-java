@@ -1,0 +1,24 @@
+{
+    Lnet/minecraft/nbt/NbtCompound;getList(Ljava/lang/String;I)Lnet/minecraft/nbt/NbtList;
+    Lnet/minecraft/nbt/NbtCompound;get(Ljava/lang/String;)Lnet/minecraft/nbt/NbtElement;
+}
+
+{
+    getList("ench", 10)
+    getList("ench")
+}
+
+{
+    Enchantment.getId(enchantment)
+    enchantment.id
+}
+
+{
+    nbtList.add
+    nbtList.addItem
+}
+
+{
+    private NbtCompound nbt
+    public NbtCompound nbt
+}
