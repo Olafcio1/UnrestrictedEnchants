@@ -1,0 +1,24 @@
+{
+    import net.minecraft.util.DamageUtils;
+    //
+}
+
+{
+    public abstract Iterable<ItemStack> getArmorItems();
+    public abstract ItemStack[] getArmorStacks();
+}
+
+{
+    this.getArmorItems()
+    this.getArmorStacks()
+}
+
+{
+    EnchantmentHelper.getProtectionAmount
+    EnchantmentHelper.method_3524
+}
+
+{
+    amount = DamageUtils.method_12937(amount, i);
+    //
+}

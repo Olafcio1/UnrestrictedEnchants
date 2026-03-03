@@ -1,0 +1,3 @@
+this['mixins'].remove("DamageUtilsMixin")
+this['mixins'].remove("DamageEnchantmentMixin")
+this['mixins'].remove("FrostWalkerEnchantmentMixin")

@@ -1,0 +1,4 @@
+{
+    Enchantment.getId(enchantment)
+    enchantment.id
+}
